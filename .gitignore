@@ -1,0 +1,28 @@
+node_modules/
+.DS_Store
+.env
+*.log
+```
+
+3. **Create package.json**
+````json
+// filepath: /Users/arjan/01. websites/exp-bureau-noord/package.json
+{
+  "name": "exp-bureau-noord",
+  "version": "1.0.0",
+  "description": "Website for exp-bureau-noord",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
