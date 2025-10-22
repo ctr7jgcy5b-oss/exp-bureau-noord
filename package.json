@@ -2,22 +2,16 @@
   "name": "exp-bureau-noord",
   "version": "1.0.0",
   "description": "Website for exp-bureau-noord",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "test": "jest"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "format": "prettier --write ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "eslint": "^8.53.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3"
   }
