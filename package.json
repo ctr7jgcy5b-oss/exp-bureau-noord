@@ -1,0 +1,22 @@
+{
+  "name": "exp-bureau-noord",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjanpetersen/exp-b-noord.git"
+  },
+  "keywords": [
+    "ebn"
+  ],
+  "author": "arjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjanpetersen/exp-b-noord/issues"
+  },
+  "homepage": "https://github.com/arjanpetersen/exp-b-noord#readme"
+}
