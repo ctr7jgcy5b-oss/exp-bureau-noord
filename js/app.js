@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// Only listen if not being tested
+// Only listen if not being tested1
 if (process.env.NODE_ENV !== 'test') {
     app.listen(port, () => {
         console.log(`Server running at http://localhost:${port}`);
