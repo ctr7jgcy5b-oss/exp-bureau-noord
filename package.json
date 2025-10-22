@@ -1,22 +1,24 @@
 {
   "name": "exp-bureau-noord",
   "version": "1.0.0",
-  "description": "test",
-  "main": "index.js",
+  "description": "Website for exp-bureau-noord",
+  "main": "app.js",
   "scripts": {
-    "test": "test"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arjanpetersen/exp-b-noord.git"
-  },
-  "keywords": [
-    "ebn"
-  ],
-  "author": "arjan",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arjanpetersen/exp-b-noord/issues"
+  "dependencies": {
+    "express": "^4.18.2"
   },
-  "homepage": "https://github.com/arjanpetersen/exp-b-noord#readme"
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
 }
